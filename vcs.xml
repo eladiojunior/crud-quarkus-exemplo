@@ -10,6 +10,10 @@
           <option name="url" value="http://tfs.cassi.com.br" />
           <option name="userName" value="eladio.junior" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://tfs.cassi.com.br/tfs/CASSICollection/CASSI/_git/tutorial-mobile-react-openshift" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
     <option name="cloneParentDir" value="D:\Projetos\vsts-git" />
