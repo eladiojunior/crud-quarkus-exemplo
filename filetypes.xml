@@ -3,6 +3,7 @@
     <extensionMap>
       <mapping ext="pem" type="IntegrationPerformanceTest" />
       <mapping pattern="JWTProprietarioClaims" type="JSON" />
+      <mapping ext="prometheus" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
