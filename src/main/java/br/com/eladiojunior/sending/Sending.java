@@ -28,7 +28,7 @@ public class Sending {
         }
         Email email;
         for (int i=1; i <= 100000; i++) {
-            email = new Email("remetente@dominio.com.br", String.format("destinatario_%s@dominio.cassi.com.br", i), String.format("Assunto [%s]", i), String.format("Mensagem [%s] do corpo do e-mail.", i));
+            email = new Email("remetente@dominio.com.br", String.format("destinatario_%s@dominio.teste.com.br", i), String.format("Assunto [%s]", i), String.format("Mensagem [%s] do corpo do e-mail.", i));
             sending.enviarEmail(email);
         }
     }
